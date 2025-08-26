@@ -14,4 +14,5 @@ then
     exit 1
 else
     echo -e "$G You are running with root user"
+fi
 
