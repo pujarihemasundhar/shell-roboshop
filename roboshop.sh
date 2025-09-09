@@ -1,7 +1,7 @@
 AMI_ID="ami-09c813fb71547fc4f"
 SG_ID="sg-094a35aeddfae0b50" 
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
-ZONE_ID="Z005330812UA31J01AWHR" # replace with your ZONE ID
+ZONE_ID="Z010928519OGD914TIA7Y" # replace with your ZONE ID
 DOMAIN_NAME="zulix.site" # replace with your domain
 
 #for instance in ${INSTANCES[@]}
