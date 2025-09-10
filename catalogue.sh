@@ -81,5 +81,5 @@ cp $SCRIPT_DIR/mongo.repo /etc/yum.repos.d/mongo.repo
 dnf install mongodb-mongosh -y &>>$LOG_FILE
 VALIDATE $? "Installing MongoDB Client"
 
-mongosh --host mongodb.zulix.site </app/db/master-data.js &>>$LOG_FILE
+mongosh --host 172.31.19.219 </app/db/master-data.js &>>$LOG_FILE
 VALIDATE $? "Loading data into MongoDB"
