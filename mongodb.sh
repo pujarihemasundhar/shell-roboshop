@@ -18,10 +18,10 @@ echo "script started executing at : $(date)" | tee -a $LOG_FILE
 # check the user has root priveleges or not
 if [ $userid -ne 0 ]
 then
-    echo -e "$R ERROR:: Please run the script with root user"
+    echo -e "$R ERROR:: Please run the script with root user $N"
     exit 1
 else
-    echo -e "$G You are running with root user"
+    echo -e "$G You are running with root user $N"
 fi
 
 # validate functions takes input as exit status, what command they tried to install
