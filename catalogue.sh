@@ -22,7 +22,7 @@ then
     echo -e "$R ERROR:: Please run this script with root access $N" | tee -a $LOG_FILE
     exit 1 #give other than 0 upto 127
 else
-    echo "$G You are running with root access $N" | tee -a $LOG_FILE
+    echo -e "$G You are running with root access $N" | tee -a $LOG_FILE
 fi
 
 # validate functions takes input as exit status, what command they tried to install
